@@ -162,4 +162,5 @@ button.thumbnail {
 }
 .search-container{
   height: 5vh;
+  width: auto;
 }
