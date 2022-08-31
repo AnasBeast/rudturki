@@ -97,9 +97,9 @@ export default function LabelSearch(){
                             label="Section"
                             onChange={handleChangetwo}
                             >
-                            <MenuItem onClick={handleDropdownClicktwo} value={"rud"}>Anas</MenuItem>
-                            <MenuItem onClick={handleDropdownClicktwo} value={"science"}>University</MenuItem>
-                            <MenuItem onClick={handleDropdownClicktwo} value={"maths"}>College</MenuItem>
+                            <MenuItem onClick={handleDropdownClicktwo} value={"special"}>special</MenuItem>
+                            <MenuItem onClick={handleDropdownClicktwo} value={"university"}>University</MenuItem>
+                            <MenuItem onClick={handleDropdownClicktwo} value={"college"}>College</MenuItem>
                             </Select>
                         </FormControl>
                         <Button  onClick={slugSearch} id="button-search" className='col-md-3'>
